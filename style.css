@@ -66,13 +66,13 @@ h2{
 }
 
 .leftColumn{
-    flex-basis: 245px;
+    width: 245px;
     padding: 24px 20px 24px 16px;
     background: #E1D8CF;
 }
 
 .rightColumn{
-    flex-basis: 350px;
+    width: 350px;
     padding: 24px 0;
 }
 
@@ -151,10 +151,10 @@ h2{
     .show-m{display:block; margin-bottom:20px;}
     .wrapper {flex-direction: column;}
     .headlineName{padding:30px 0 12px;}
-    .rightColumn{padding:30px 15px;}
-    .leftColumn{padding:30px 15px;}
+    .rightColumn{padding:30px 15px; width: 100%;}
+    .leftColumn{padding:30px 15px; width: 100%;}
     .mainInformation{padding:0;}
     .mb-30{margin-bottom:30px;}
-    .photo__img{display:block; margin: 0 auto;}
+    .photoImg{display:block; margin: 0 auto;}
     .headlineName-firstname{font-size:20px;}
 }
