@@ -147,10 +147,7 @@ h2{
     display:none;
 }
 
-@media (min-width:320px) and (max-width:768px) {
-    .headline-name-firstname{
-        font-size:18px;
-    }
+@media (max-width:768px) {
     .hm {
         display: none;
         width: 0;
